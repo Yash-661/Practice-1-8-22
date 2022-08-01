@@ -52,7 +52,7 @@ end;
 subplot(2,2,[3,4]);
 disp(y);
 stem(y);
-title(CC with zero padding of x(n)&h(n)is:');
+title('CC with zero padding of x(n)&h(n)is:');
 xlabel('--->n');
 ylabel('--->y(n)');
 grid;

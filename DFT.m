@@ -6,15 +6,15 @@ x = input('enter the input sequence with in square bracketes');
 N = input ('enter N value for N-point DFT');
 L = length(x);
 
-if L>N
+if L > N
    disp('N should greater than L')
    return
 end
 
-for k=0:N-1
-   X(k+1)=0;
-   for n=0:N-1
-      X(k+1)=X(k+1)+x(n+1)*exp((-j*2*pi*k*n)/N);
+for k = 0:N-1
+   X(k+1) = 0;
+   for n = 0:N-1
+      X(k+1) = X(k+1) + x(n+1) * exp((-j*2*pi*k*n) / N);
    end
 end
 

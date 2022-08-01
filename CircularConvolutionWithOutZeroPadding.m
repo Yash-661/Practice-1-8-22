@@ -33,6 +33,6 @@ disp('the circular convolution isy(n):');
 disp(y);
 
 stem(y);
-title(CC without zero padding');
+title('CC without zero padding');
 xlabel('n');
 ylabel('y(n)');
